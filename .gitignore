@@ -1,15 +1,45 @@
+# Archivos de proyecto de Android Studio
 *.iml
+.idea/
+
+# Archivos de Gradle
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+
+# Archivos generados durante la construcción
 /build
 /captures
 .externalNativeBuild
 .cxx
+
+# Archivos de aplicaciones construidas
+*.apk
+*.ap_
+
+# Archivos para la máquina virtual de Dalvik (DEX)
+*.dex
+
+# Archivos de clase de Java
+*.class
+
+# Archivos generados
+**/bin/
+**/gen/
+**/out/
+**/build/
+
+# Archivo de configuración local (ruta del SDK, etc.)
 local.properties
+
+# Archivos de configuración de Eclipse
+.classpath
+.project
+
+# Archivos de miniaturas de Windows
+.DS_Store
+
+# Archivos y carpetas de sandbox
+_sandbox
+
+# Carpeta de capturas de Android Studio
+**/captures/

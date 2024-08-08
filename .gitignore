@@ -43,3 +43,20 @@ _sandbox
 
 # Carpeta de capturas de Android Studio
 **/captures/
+
+# Archivos generados por Android Studio
+.gradle/
+.idea/
+/build/
+/local.properties
+
+# Archivos y carpetas de configuración
+*.iml
+
+# Archivos de Gradle
+gradle-wrapper.properties
+gradle-wrapper.jar
+
+# Archivos de Windows
+.DS_Store
+
